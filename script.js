@@ -4,7 +4,7 @@ import { updateObstacle, setupObstacle, getObstacleRects } from "./obstacle.js"
 import { updateNft, setupNft, getNftRects } from "./nft.js"
 
 const GAME_WIDTH = 100
-const GAME_HEIGHT = 30
+const GAME_HEIGHT = 42
 const SPEED_SCALE_INCREASE = 0.00001
 
 const gameElem = document.querySelector("[data-game]")
